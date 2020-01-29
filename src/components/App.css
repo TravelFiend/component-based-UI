@@ -83,3 +83,37 @@
     }
   }
 }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background: rgb(32, 35, 41);
+  padding: 30px;
+  width: 300px;
+}
+
+.image {
+    color: white;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  color: rgb(158, 158, 158);
+}
+
+.right {
+  font-size: 0.9rem;
+  color: #ff9800;
+  justify-content: end;
+  text-align: end;
+}
+
+ul > li {
+  margin: 30px;
+}

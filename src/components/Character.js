@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import styles from './App.css';
 
 class Character extends Component{
   static propTypes = {
@@ -15,34 +16,32 @@ class Character extends Component{
   render(){
     const { image, name, status, species, gender, origin, lastLocation } = this.props;
     return (
-      <>
-        <article>
-          <section id="image">
-            <img src={image} />
-            <p>{name}</p>
-          </section>
+      <div className={styles.card}>
+        <section className={styles.image}>
+          <img src={image} />
+          <p>{name}</p>
+        </section>
 
-          <section id="about">
-            <ul className="">
-              <li>status</li>
-              <li>species</li>
-              <li>gender</li>
-              <li>origin</li>
-              <li>status</li>
-              <li>last location</li>
-            </ul>
+        <section className={styles.about}>
+          <ul className={styles.left}>
+            <li>status</li>
+            <li>species</li>
+            <li>gender</li>
+            <li>origin</li>
+            <li>status</li>
+            <li>last location</li>
+          </ul>
 
-            <ul className="">
-              <li>{status}</li>
-              <li>{species}</li>
-              <li>{gender}</li>
-              <li>{origin}</li>
-              <li>{status}</li>
-              <li>{lastLocation}</li>
-            </ul>
-          </section>
-        </article>
-      </>
+          <ul className={styles.right}>
+            <li>{status}</li>
+            <li>{species}</li>
+            <li>{gender}</li>
+            <li>{origin}</li>
+            <li>{status}</li>
+            <li>{lastLocation}</li>
+          </ul>
+        </section>
+      </div>
     );
   }
 }
