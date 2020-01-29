@@ -84,12 +84,20 @@
   }
 }
 
+.art {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: #202329;
+}
+
 .card {
   display: flex;
   flex-direction: column;
   background: rgb(32, 35, 41);
-  padding: 30px;
   width: 300px;
+  border-radius: 15px;
 }
 
 .image {
