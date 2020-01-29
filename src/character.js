@@ -1,14 +1,4 @@
-import slotOne from '../assets/slotOne.jpeg';
-import slotTwo from '../assets/slotTwo.jpeg';
-import slotThree from '../assets/slotThree.jpeg';
-import slotFour from '../assets/slotFour.jpeg';
-import slotFive from '../assets/slotFive.jpeg';
-import slotSix from '../assets/slotSix.jpeg';
-import slotSeven from '../assets/slotSeven.jpeg';
-import slotEight from '../assets/slotEight.jpeg';
-
 const cardOne = {
-  image: { slotOne }, 
   name: 'Abradolf Lincler',
   status: 'unkown', 
   species: 'Human, Genetic experiment',
@@ -18,7 +8,6 @@ const cardOne = {
 };
 
 const cardTwo = {
-  image: { slotTwo },
   name: 'Colossus',
   status: 'Dead',
   species: 'Human',
@@ -28,7 +17,6 @@ const cardTwo = {
 };
 
 const cardThree = {
-  image: { slotThree },
   name: 'Cornvelious Daniel',
   status: 'Dead',
   species: 'Alien, Gromflomite',
@@ -38,7 +26,6 @@ const cardThree = {
 };
 
 const cardFour = {
-  image: { slotFour },
   name: 'Mr. Marklovitz',
   status: 'Alive',
   species: 'Human',
@@ -48,7 +35,6 @@ const cardFour = {
 };
 
 const cardFive = {
-  image: { slotFive },
   name: 'Quantum Rick',
   status: 'unknown',
   species: 'Human',
@@ -58,7 +44,6 @@ const cardFive = {
 };
 
 const cardSix = {
-  image: { slotSix },
   name: 'Samantha',
   status: 'Alive',
   species: 'Human',
@@ -68,7 +53,6 @@ const cardSix = {
 };
 
 const cardSeven = {
-  image: { slotSeven },
   name: 'Zarbadar\'s Mytholog',
   status: 'unknown',
   species: 'Mytholog',
@@ -78,7 +62,6 @@ const cardSeven = {
 };
 
 const cardEight = {
-  image: { slotEight },
   name: 'Muscular Mannie',
   status: 'Alive',
   species: 'Human, Mannie',
