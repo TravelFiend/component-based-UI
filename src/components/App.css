@@ -1,6 +1,7 @@
 .Header {
   padding: 1rem;
   font-size: 1.5rem;
+  height: 40vh;
 
   nav ul {
     display: flex;
@@ -95,13 +96,17 @@
 .card {
   display: flex;
   flex-direction: column;
-  background: rgb(32, 35, 41);
+  background: #333333;
   width: 300px;
   border-radius: 15px;
 }
 
-.image {
-    color: white;
+p {
+  position: relative;
+  bottom: 20px;
+  font-size: 1.625rem;
+  color: white;
+  background: rgba(32, 35, 41, 0.7);
 }
 
 .about {
