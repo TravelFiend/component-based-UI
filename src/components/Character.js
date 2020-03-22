@@ -19,7 +19,7 @@ class Character extends Component{
       <div className={styles.card}>
         <section className={styles.image}>
           <img src={image} />
-          <p>{name}</p>
+          <p className={styles.p}>{name}</p>
         </section>
 
         <section className={styles.about}>
