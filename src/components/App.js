@@ -3,7 +3,7 @@ import styles from './App.css';
 import Header from './Header';
 import Footer from './Footer';
 import Character from './Character';
-import { cardOne, cardTwo, cardThree, cardFour, cardFive, cardSix, cardSeven, cardEight   } from '../character';
+import { cardOne, cardTwo, cardThree, cardFour, cardFive, cardSix, cardSeven, cardEight } from '../character';
 import slotOne from '../../assets/slotOne.jpeg';
 import slotTwo from '../../assets/slotTwo.jpeg';
 import slotThree from '../../assets/slotThree.jpeg';
